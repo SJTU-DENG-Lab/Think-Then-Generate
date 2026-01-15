@@ -4,12 +4,13 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.23576-b31b1b.svg)](xxx)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffd21e)](https://huggingface.co/SJTU-Deng-Lab/Think-Then-Generate-T2I/tree/main)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-ffd21e)](https://huggingface.co/spaces/zhijie3/think-then-generate)
 [![Project Page](https://img.shields.io/badge/Website-Gallery-blue)](https://zhijie-group.github.io/Think-Then-Generate/)
 
 
 <img src="assets/demo.jpg" width="100%">
 
-More results can be found in the gallery(link).
+More results can be found in the [gallery](https://zhijie-group.github.io/Think-Then-Generate/).
 </div>
 
 ---
@@ -31,7 +32,7 @@ To ensure the reasoning actually improves image quality, we employ **Dual-GRPO**
 
 - For the LLM Encoder: It is reinforced using image-grounded rewards focusing on semantic alignment. This forces the model to activate latent world knowledge and infer precise visual details that are critical for accurate generation.
 
-- For the Diffusion Backbone: It is simultaneously trained with visual realism and aesthetic quality rewards conditioned on the refined prompts. This aligns the generator's capabilities with the complex, detailed instructions produced by the LLM.
+- For the DiT Backbone: It is simultaneously trained with visual realism and aesthetic quality rewards conditioned on the refined prompts. This aligns the generator's capabilities with the complex, detailed instructions produced by the LLM.
 
 
 ## 🛠️ Installation
