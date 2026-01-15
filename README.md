@@ -6,26 +6,33 @@
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffd21e)](https://huggingface.co/SJTU-Deng-Lab/Think-Then-Generate-T2I/tree/main)
 [![Project Page](https://img.shields.io/badge/Website-Gallery-blue)](https://zhijie-group.github.io/Think-Then-Generate/)
 
-<img src="assets/demo.png" width="100%">
+
+<img src="assets/demo.jpg" width="100%">
+
 More results can be found in the gallery(link).
 </div>
 
 ---
 
 ## 🧠 How it Works
+<div align="center">
+  <img src="assets/pipeline.jpg" width="80%" alt="Pipeline Architecture">
+</div>
 
 Most existing Text-to-Image (T2I) models act as simple **text-pixel mappers**—they encode text without truly understanding it. To bridge the gap between abstract user prompts and concrete visual pixels, we propose the **Think-Then-Generate** paradigm:
 
-### 1. Phase I: Reasoning Activation
-We first activate the reasoning potential of the LLM-based text encoder via lightweight SFT. Instead of directly passing the raw prompt to the generator, the LLM is encouraged to reason about the user's intent and rewrite the prompt into a detailed, structured description that serves as conditioning for the DiT decoders.
+1. Phase I: Reasoning Activation
+   
+We first activate the reasoning potential of the LLM-based text encoder via lightweight SFT. Instead of directly passing the raw prompt to the generator, the LLM is encouraged to reason about the user's intent and rewrite the prompt into a detailed, structured description that serves as conditioning for the DiT backbone.
 
-### 2. Phase II: Co-Evolution via Dual-GRPO
+2. Phase II: Co-Evolution via Dual-GRPO
+   
 To ensure the reasoning actually improves image quality, we employ **Dual-GRPO** to co-optimize both the "Brain" (LLM) and the "Painter" (DiT Backbone):
 
-* **For the LLM Encoder:** It is reinforced using **image-grounded rewards**. This forces the model to recall world knowledge and infer visual details that lead to better images.
-* **For the Diffusion Backbone:** It is simultaneously pushed to produce images that are not just high-quality, but **semantically consistent** with the LLM's complex reasoning.
+- For the LLM Encoder: It is reinforced using image-grounded rewards focusing on semantic alignment. This forces the model to activate latent world knowledge and infer precise visual details that are critical for accurate generation.
 
-<img src="assets/pipeline.png" width="100%">
+- For the Diffusion Backbone: It is simultaneously trained with visual realism and aesthetic quality rewards conditioned on the refined prompts. This aligns the generator's capabilities with the complex, detailed instructions produced by the LLM.
+
 
 ## 🛠️ Installation
 
