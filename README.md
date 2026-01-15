@@ -6,7 +6,7 @@
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffd21e)](https://huggingface.co/SJTU-Deng-Lab/Think-Then-Generate-T2I/tree/main)
 [![Project Page](https://img.shields.io/badge/Website-Gallery-blue)](https://zhijie-group.github.io/Think-Then-Generate/)
 
-<img src="assets/pipeline.png" width="100%" alt="Think-Then-Generate Teaser">
+<img src="assets/pipeline.png" width="100%">
 
 </div>
 
