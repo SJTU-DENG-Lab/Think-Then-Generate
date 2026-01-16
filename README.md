@@ -2,7 +2,7 @@
 
 # Think-Then-Generate: <br> Reasoning-Aware Text-to-Image Diffusion with LLM Encoders
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.xxxxx-b31b1b.svg)](xxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2601.10332-b31b1b.svg)](http://arxiv.org/abs/2601.10332)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffd21e)](https://huggingface.co/SJTU-Deng-Lab/Think-Then-Generate-T2I/tree/main)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-ffd21e)](https://huggingface.co/spaces/zhijie3/think-then-generate)
 [![Project Page](https://img.shields.io/badge/Website-Gallery-blue)](https://zhijie-group.github.io/Think-Then-Generate/)
@@ -62,11 +62,11 @@ python inference.py \
 If you find our work helpful, please consider citing:
 
 ```bibtex
-@article{xxx,
+@article{kou2026think,
   title={Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders},
-  author={Authors},
+  author={Siqi Kou and Jiachun Jin and Zetong Zhou and Ye Ma and Yugang Wang and Quan Chen and Peng Jiang and Xiao Yang and Jun Zhu and Kai Yu and Zhijie Deng},
   journal={arXiv preprint},
-  year={2025}
+  year={2026}
 }
 
 ```
