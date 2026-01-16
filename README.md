@@ -5,12 +5,12 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2601.10332-b31b1b.svg)](http://arxiv.org/abs/2601.10332)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-ffd21e)](https://huggingface.co/SJTU-Deng-Lab/Think-Then-Generate-T2I/tree/main)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-ffd21e)](https://huggingface.co/spaces/zhijie3/think-then-generate)
-[![Project Page](https://img.shields.io/badge/Website-Gallery-blue)](https://zhijie-group.github.io/Think-Then-Generate/)
+[![Project Page](https://img.shields.io/badge/Website-Gallery-blue)](https://SJTU-DENG-Lab.github.io/Think-Then-Generate/)
 
 
 <img src="assets/demo.jpg" width="100%">
 
-More results can be found in the [gallery](https://zhijie-group.github.io/Think-Then-Generate/).
+More results can be found in the [gallery](https://SJTU-DENG-Lab.github.io/Think-Then-Generate/).
 </div>
 
 ---
@@ -41,7 +41,7 @@ Install the necessary dependencies:
 
 ```bash
 pip install torch transformers diffusers accelerate
-git clone https://github.com/zhijie-group/Think-Then-Generate.git
+git clone https://github.com/SJTU-DENG-Lab/Think-Then-Generate.git
 ```
 
 ## 🚀 Inference
