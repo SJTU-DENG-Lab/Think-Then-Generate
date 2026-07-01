@@ -8,13 +8,16 @@
 [![Project Page](https://img.shields.io/badge/Website-Gallery-blue)](https://SJTU-DENG-Lab.github.io/Think-Then-Generate/)
 
 
+
 <img src="assets/demo.jpg" width="100%">
 
 More results can be found in the [gallery](https://SJTU-DENG-Lab.github.io/Think-Then-Generate/).
 </div>
 
 ---
-
+## 🔥 News
+- Our algorithm has been officially integrated into Tencent's open-source [UniRL](https://github.com/Tencent-Hunyuan/UniRL/blob/main/unirl/trainer/pe.py). Thanks to the Tencent Hunyuan Team for their support!
+  
 ## 🧠 How it Works
 <div align="center">
   <img src="assets/pipeline.jpg" width="80%" alt="Pipeline Architecture">
